@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hidden-paradise/static/css/main.e6c13ad2.css",
+    "main.js": "/hidden-paradise/static/js/main.6d981e3e.js",
+    "static/js/787.bf655626.chunk.js": "/hidden-paradise/static/js/787.bf655626.chunk.js",
+    "index.html": "/hidden-paradise/index.html",
+    "main.e6c13ad2.css.map": "/hidden-paradise/static/css/main.e6c13ad2.css.map",
+    "main.6d981e3e.js.map": "/hidden-paradise/static/js/main.6d981e3e.js.map",
+    "787.bf655626.chunk.js.map": "/hidden-paradise/static/js/787.bf655626.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6d981e3e.js"
+  ]
+}
