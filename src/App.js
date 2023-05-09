@@ -21,14 +21,16 @@ function App() {
 
   const handleChange = (event) => {
     setFile(event.target.files[0]);
-  };
+   };
 
   const handleUpload = () => {
     if (!file) {
       console.log('No file selected');
       return;
     }
-  
+    //calling the const HandleChange upon clicking the handleupload button
+    handleChange({target: {files: [file]}});
+    //upload function firebase
     const storageRef = storage.ref();
     const namePOI = document.getElementsByName("namePOI")[0].value;
     const name = document.getElementsByName("name")[0].value;
@@ -111,10 +113,13 @@ function App() {
     
     {/* /*<button type="submit">Submit</button> */}
           <input type="file" onChange={handleChange} accept="image/*" />
+
           <br></br>
-          <button type="button" onClick={handleUpload}>
+
+          <button type="button" onClick={handleUpload} >
             Upload to Firebase
           </button>
+
           <p>{percent}% done</p>
       </form>
   );
