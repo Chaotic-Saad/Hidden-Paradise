@@ -111,7 +111,7 @@ function App() {
     </div>
     <br></br>
     
-    {/* /*<button type="submit">Submit</button> */}
+    <button type="submit">Submit</button>
           <input type="file" onChange={handleChange} accept="image/*" />
 
           <br></br>
