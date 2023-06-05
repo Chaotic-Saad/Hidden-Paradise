@@ -65,6 +65,7 @@ function App() {
     try {
       await db.collection("landmarks").add(data);
       console.log("Data successfully added to Firestore!");
+      
     } catch (error) {
       console.error("Error adding data to Firestore: ", error);
     }
@@ -111,7 +112,8 @@ function App() {
     </div>
     <br></br>
     
-    {/* /*<button type="submit">Submit</button> */}
+    <button type="submit">Submit</button>
+    <br></br>
           <input type="file" onChange={handleChange} accept="image/*" />
 
           <br></br>
